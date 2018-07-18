@@ -1,12 +1,3 @@
-language: node_js
+language: shell
 os:
 - linux
-node_js:
-- 6
-install:
-- npm install -g sails bower cnpm
-- npm i
-script:
-- npm run cover
-after_success:
-- npm run coveralls
